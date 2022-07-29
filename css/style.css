@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Liu Jian Mao Cao", cursive; */
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/*========= VP + HEADER =========== */
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem;
+  background: #333;
+}
+
+header a {
+  color: white;
+}
+
+.vp {
+  flex: auto;
+}
